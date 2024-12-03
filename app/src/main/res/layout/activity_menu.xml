@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FF5722">
+
+        <TextView
+            android:id="@+id/txtTituloLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IMDMARKET"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="O que deseja fazer?"
+        android:textColor="#808080"
+        android:textSize="23sp"
+        tools:layout_marginTop="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btnCadastro"
+            android:layout_width="115dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="16dp"
+            android:background="#6D49B3"
+            android:text="Cadastrar produto"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="115dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="#6D49B3"
+            android:text="Listar \nprodutos"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAlterar"
+            android:layout_width="115dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Alterar \nproduto"
+            android:textAllCaps="false"
+            android:background="#6D49B3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="115dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Deletar \nprodutos"
+            android:textAllCaps="false"
+            android:background="#6D49B3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgMarket"
+        android:layout_width="129dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/shop" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40sp"
+        android:background="#6D49B3"
+        android:text="Sair"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

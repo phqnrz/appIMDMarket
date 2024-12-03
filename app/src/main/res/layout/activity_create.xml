@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FF5722">
+
+        <TextView
+            android:id="@+id/txtTituloLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IMDMARKET"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Subtítulo -->
+
+    <!-- CADASTRAR PRODUTO   -->
+    <TextView
+        android:id="@+id/cadastrarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CADASTRAR PRODUTO"
+        android:textColor="#808080"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_marginTop="45dp" />
+
+
+    <TextView
+        android:id="@+id/txtCodProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="12sp"
+        android:gravity="left"
+        android:text="Código produto:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/codProduto"
+        android:layout_width="386dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12sp"
+        android:inputType="text"
+        android:textColor="#C1BFBF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtRecuperarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="12sp"
+        android:gravity="left"
+        android:text="Nome produto:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nomeProduto"
+        android:layout_width="386dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12sp"
+        android:inputType="text"
+        android:textColor="#C1BFBF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="12sp"
+        android:gravity="left"
+        android:text="Descrição produto:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/descricaoProduto"
+        android:layout_width="386dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12sp"
+        android:inputType="text"
+        android:textColor="#C1BFBF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="12sp"
+        android:gravity="left"
+        android:text="Estoque:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/estoqueProduto"
+        android:layout_width="386dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12sp"
+        android:inputType="text"
+        android:textColor="#C1BFBF"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_marginVertical="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Salvar"
+            android:textAllCaps="false"
+            android:background="#6D49B3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Limpar"
+            android:textAllCaps="false"
+            android:background="#6D49B3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

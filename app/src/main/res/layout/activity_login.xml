@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FF5722">
+
+        <TextView
+            android:id="@+id/txtTituloLogin"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IMDMARKET"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:text="Login:"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="text"
+        android:textColor="#C1BFBF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55sp"
+        android:gravity="center"
+        android:text="Senha:"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="text"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:background="#6D49B3"
+        android:hint="ENTRAR"
+        android:textColorHint="#FDFBFB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtRecuperarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Esqueci minha senha/login"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+</LinearLayout>
